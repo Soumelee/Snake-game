@@ -65,13 +65,13 @@ while True:
     # Display Apple
     cv2.rectangle(img, (apple_position[0], apple_position[1]),
                   (apple_position[0] + BLOCK_SIZE, apple_position[1] + BLOCK_SIZE),
-                  (0, 0, 255), 3)
+                  (17, 255, 86), cv2.FILLED)
     
     # Display Snake
     for position in snake_position:
         cv2.rectangle(img, (position[0], position[1]),
                       (position[0] + BLOCK_SIZE, position[1] + BLOCK_SIZE),
-                      (0, 255, 0), 3)
+                      (155, 126, 222), 5, )
 
     time.sleep(MOVEMENT_DELAY)
 
