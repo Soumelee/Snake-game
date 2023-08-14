@@ -103,10 +103,10 @@ while True:
     if is_boundary_collision([head_x, head_y]) or is_self_collision(snake_position):
         font = cv2.FONT_HERSHEY_SIMPLEX
         img.fill(0)
-        cv2.putText(img, f'Your Score is {score}', (140, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+        cv2.putText(img, f'Your Score is {score}', (140, 250), font, 1, (170, 190, 208), 2, cv2.LINE_AA)
         cv2.imshow('Snake Game', img)
         cv2.waitKey(0)
-        cv2.imwrite('snake_game_over.jpg', img)
+        cv2.imwrite('game_over.jpg', img)
         break
 
 cv2.destroyAllWindows()
