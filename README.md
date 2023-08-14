@@ -11,7 +11,7 @@ A classic Snake game implementation in Python using OpenCV.
 - [License](#license)
 
 ## Demo
-![Gameplay Demo](demo.mp4)
+[![Gameplay Demo](demo.mp4)](https://github.com/Soumelee/Snake-game/assets/76765912/cc1dac8f-11df-489d-a0a9-448572621ce1)
 
 ## Getting Started
 1. Clone this repository.
